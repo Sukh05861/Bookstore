@@ -1,0 +1,61 @@
+.cart-item {
+    display: flex;
+    padding: 1.5rem; /* Reduced padding for a more compact layout */
+    margin: 1.5rem 0; /* Reduced margin for consistency */
+    border: 1px solid #e0e0e0; /* Lighter border for a softer look */
+    border-radius: 12px; /* Slightly more rounded corners */
+    background-color: #fff; /* Clean background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.cart-item:hover {
+    transform: translateY(-4px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.cart-item-img {
+    width: 5rem; /* Adjusted size for a more balanced appearance */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for the image */
+}
+
+.cart-item-content-container {
+    padding-left: 1.5rem; /* Reduced padding for consistency */
+    padding-top: 0.5rem; /* Adjusted padding for better spacing */
+    flex: 1; /* Allows the content to grow and fill available space */
+}
+
+.cart-item-content-container p {
+    margin: 0.5rem 0; /* Consistent spacing around text */
+    color: #333; /* Darker text color for better readability */
+}
+
+.cart-item-price {
+    padding-top: 0.5rem; /* Adjusted padding for consistency */
+    font-size: 1.2rem; /* Slightly larger font size for emphasis */
+    color: var(--primary-color); /* Updated to primary color */
+    font-weight: bold; /* Added bold weight for prominence */
+}
+
+.delete_btn {
+    background-color: var(--accent-color); /* Updated to accent color */
+    color: #fff;
+    padding: 0.75rem 1.5rem; /* Adjusted padding for a more balanced button */
+    border-radius: 6px; /* Slightly rounded corners */
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none; /* Removed border for a cleaner look */
+    font-size: 0.9rem; /* Adjusted font size for readability */
+}
+
+.delete_btn:hover {
+    background-color: var(--primary-color); /* Hover color changes to primary color */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.delete_btn:active {
+    background-color: var(--accent-color); /* Active state color for consistency */
+    transform: translateY(0); /* Reset transform on click */
+}

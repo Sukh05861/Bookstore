@@ -1,0 +1,51 @@
+.footer-container{
+    background-color: #222;
+    padding: 5rem 0;
+}
+
+.footer-container h2{
+    color:white;
+}
+
+.footer-container p{
+    color:white;
+    padding-top: 2rem;
+    font-size: 0.8rem;
+}
+
+.footer-form{
+    padding-top: 3rem;
+    width: 50%;
+}
+
+.form-group{
+    padding: 1rem 0;
+}
+
+.form-label{
+    display:inline-block;
+    color: red;
+    padding-bottom: 10px;
+}
+
+.form-input{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-submit{
+    display: inline-block;
+    color: var(--white-color);
+    text-decoration: none;
+    background-color: rgb(235, 76, 76);
+    padding: 0.8rem 2rem;
+    transition: 0.3s ease-in;
+}
+
+.form-submit:hover{
+    background-color: var(--white-color);
+    color: #5f55e7;
+}

@@ -1,0 +1,65 @@
+.product-listing-card {
+    border: 1px solid #e0e0e0; /* Lighter border for a softer look */
+    width: 100%;
+    padding: 1.5rem; /* Reduced padding for a more compact design */
+    border-radius: 12px; /* Slightly more rounded corners */
+    background-color: #fff; /* Ensures the card has a clean background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-listing-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.product-listing-img-container {
+    width: 100%;
+    height: 12rem; /* Reduced height for a more balanced card */
+    text-align: center;
+    overflow: hidden; /* Hide any overflow from the image */
+    border-radius: 10px 10px 0 0; /* Rounded corners on top */
+}
+
+.product-listing-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container */
+    border-radius: 10px 10px 0 0; /* Matches the rounded corners */
+}
+
+.product-listing-details-container {
+    padding-top: 1.5rem; /* Reduced padding for consistency */
+}
+
+.author-name {
+    font-size: 0.9rem;
+    color: #555; /* Darker text color for better readability */
+    margin: 0; /* Removed padding for consistency */
+}
+
+.pricing {
+    font-size: 1.6rem; /* Slightly increased font size for emphasis */
+    font-weight: 700;
+    color: var(--primary-color); /* Updated to primary color */
+    margin: 0; /* Removed default margin */
+}
+
+.product-listing-button {
+    display: inline-block;
+    background-color: var(--primary-color); /* Updated to primary color */
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    color: #fff;
+    font-family: 'Chivo Mono', monospace;
+    text-decoration: none;
+    border-radius: 6px; /* Rounded corners for the button */
+    margin-top: 1.5rem; /* Reduced margin for a more compact layout */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.product-listing-button:hover {
+    background-color: #333; /* Darker shade for hover effect */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}

@@ -1,0 +1,16 @@
+.search-container {
+    width: 80%; /* Increased width for better visibility on larger screens */
+    max-width: 600px; /* Set a max-width for large screens */
+    margin: 2rem auto; /* Adjusted margin for better spacing */
+    padding: 2rem; /* Added padding for better internal spacing */
+    background-color: #f9f9f9; /* Light background color for contrast */
+    border-radius: 12px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center text alignment for the entire container */
+}
+
+.search-container h2 {
+    font-size: 2rem; /* Increased font size for prominence */
+    color: var(--primary-color); /* Use the primary color for the heading */
+    margin-bottom: 1.5rem; /* Adjusted margin for spacing below the heading */
+}

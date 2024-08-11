@@ -1,0 +1,53 @@
+.cart-item {
+    display: flex;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border: 1px solid #e0e0e0; /* Lighter border for a softer look */
+    border-radius: 1rem;
+    background-color: #fafafa; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.cart-item-img {
+    width: 5rem; /* Adjusted for a more balanced look */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 0.5rem; /* Slightly rounded corners for the image */
+}
+
+.cart-item-content-container {
+    padding-left: 1.5rem; /* Reduced padding for a more compact look */
+    padding-top: 0.5rem;
+    flex: 1; /* Allows the content to grow and fill available space */
+}
+
+.cart-item-content-container p {
+    margin: 0.5rem 0; /* Reduced margin for consistent spacing */
+    color: #333; /* Darker text color for better readability */
+}
+
+.cart-item-price {
+    color: var(--primary-color); /* Changed to primary color for emphasis */
+    font-weight: bold; /* Added font-weight for prominence */
+}
+
+.delete_btn {
+    background-color: var(--accent-color); /* Updated to accent color */
+    color: #fff;
+    padding: 0.75rem 1.5rem; /* Increased padding for better button appearance */
+    border-radius: 0.5rem; /* Adjusted border-radius for a smoother look */
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none; /* Removed border for a cleaner look */
+    font-size: 0.9rem; /* Adjusted font size for better readability */
+}
+
+.delete_btn:hover {
+    background-color: var(--primary-color); /* Hover color changes to primary color */
+    transform: scale(1.05); /* Slight scale effect for interaction feedback */
+}
+
+.delete_btn:active {
+    background-color: var(--accent-color); /* Active state color for consistency */
+    transform: scale(0.95); /* Slight shrink effect for feedback */
+}
